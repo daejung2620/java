@@ -1,14 +1,10 @@
 package jump2java;
 
-public class S0301 {
+public class S0302 {
 	public static void main(String[] args) {
-		System.out.println("Hello, java");
-		int i = 0;
-		System.out.println(i++);
-		System.out.println(i);
-		System.out.println(++i);
-		System.out.println(i);
-		
-		
+		String a = "Hello java";
+		String b = "java";
+		System.out.println(a.equals(b));
+		System.out.println(a.indexOf("a"));
 	}
 }
